@@ -39,6 +39,8 @@ app.set("views", "./views");
 app.get("/", async function (request, response) {
   // Render index.liquid uit de Views map
   // Geef hier eventueel data aan mee
+
+  //op directus staat weinig to geen data dus moet zelf wat megeven / maken
   const person = {
     id: 1,
     excerpt: null,
