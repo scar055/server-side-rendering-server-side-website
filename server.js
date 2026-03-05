@@ -39,7 +39,24 @@ app.set("views", "./views");
 app.get("/", async function (request, response) {
   // Render index.liquid uit de Views map
   // Geef hier eventueel data aan mee
-  response.render("index.liquid");
+  const person = {
+    id: 1,
+    excerpt: null,
+    body: "\u003Cp\u003EMijn naam is Rhod&eacute; Treur, 22 jaar oud, woon in Woudenberg en ik volg de Ad-opleiding Human Resource Management aan de Hogeschool Utrecht. Momenteel zit ik in het tweede jaar van deze Ad-opleiding en ben ik bezig met mijn eindstage bij Timon jeugd- en (jong)volwassenenzorg. In mijn vrije tijd werk ik als douanedeclarant bij een transportbedrijf en sport ik graag. &nbsp;\u003Cbr\u003E&nbsp;\u003Cbr\u003EIk heb voor een Ad-opleiding gekozen, omdat je hier de kennis en vaardigheden die je opdoet, direct in de praktijk kan brengen door middel van projecten. Ook is er in de opleiding veel aandacht voor je persoonlijke ontwikkeling. Daarnaast vind ik het een voordeel dat het een tweejarige hbo-opleiding is, met de mogelijkheid om door te stromen in de bachelorvariant. &nbsp;\u003Cbr\u003E&nbsp;\u003Cbr\u003EMijn keuze voor Human Resource Management komt voort uit de wens om het menselijke en het zakelijke aspect te combineren. Ik zie het als een uitdaging om medewerkers op de beste manier in te zetten binnen een organisatie, zodat zij op een plek zitten waar ze gelukkig zijn en waar hun talenten het beste uitkomen. Binnen de opleiding vraag ik actief om feedback van zowel medestudenten als docenten. Aan de hand daarvan reflecteer ik op mijn denken en handelen en stel ik doelen op die bijdragen aan mijn professionele ontwikkeling. &nbsp;\u003Cbr\u003E&nbsp;\u003Cbr\u003ENa het afronden van mijn Ad-opleiding zie ik mijzelf doorstromen in de deeltijdvariant van de bachelor. Hierdoor kan ik mijn kennis en vaardigheden dagelijks toepassen in de praktijk en kan ik mij blijven ontwikkelen in de rol als HR-officer.&nbsp;\u003C/p\u003E",
+    status: "published",
+    alumnus: null,
+    education_variant: "Voltijd",
+    previous_course: " mbo bol",
+    course: " Ad Human Resource Management (HRM)",
+    institution: " Hogeschool Utrecht ",
+    header: "nominatie",
+    slug: null,
+    title: "Rhodé Treur",
+    date: "2024-01-11",
+    profile_picture: "383622d7-ed2f-4e84-8c0a-9476c5c53826",
+  };
+
+  response.render("index.liquid", person);
 });
 
 // Maak een POST route voor de index; hiermee kun je bijvoorbeeld formulieren afvangen
