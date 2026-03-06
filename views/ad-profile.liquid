@@ -1,0 +1,21 @@
+{% render 'partials/head.liquid', title: 'Ad award' %}
+<main>
+  <section>
+    <h1>{{ person.title }}</h1>
+    <img src="" alt="foto van persoon">
+  </section>
+  <section>
+    <h2>introductie</h2>
+    <p>{{ person.body }}</p>
+  </section>
+  <section>
+    <h2>Nominatie Hogeschool</h2>
+    <p>paragraaf over stakeholder</p>
+  </section>
+  <section>
+    <h2>Aanbeveling externe stakeholder</h2>
+    <blockquote>paragraaf over stakeholder</blockquote>
+  </section>
+  <a>terug alle genomineerde</a>
+</main>
+{% render 'partials/foot.liquid' %}
