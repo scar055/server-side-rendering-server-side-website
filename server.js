@@ -58,7 +58,7 @@ app.get("/", async function (request, response) {
     profile_picture: "383622d7-ed2f-4e84-8c0a-9476c5c53826",
   };
 
-  response.render("index.liquid", person);
+  response.render("index.liquid", {person: person});
 });
 
 // Maak een POST route voor de index; hiermee kun je bijvoorbeeld formulieren afvangen
