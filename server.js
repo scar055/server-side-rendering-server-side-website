@@ -61,6 +61,45 @@ app.get("/", async function (request, response) {
   response.render("index.liquid", {person: person});
 });
 
+app.get("/contact", async function (request, response) {
+  response.render("contact.liquid");
+});
+
+app.get("/events", async function (request, response) {
+  response.render("events.liquid");
+});
+
+app.get("/lado", async function (request, response) {
+  response.render("lado.liquid");
+});
+
+app.get("/over-ad", async function (request, response) {
+  response.render("over-ad.liquid");
+});
+
+app.get("/over-ons", async function (request, response) {
+  response.render("over-ons.liquid");
+});
+app.get("/publicaties", async function (request, response) {
+  response.render("publicaties.liquid");
+});
+app.get("/talent-awards", async function (request, response) {
+  response.render("talent-awards.liquid");
+});
+
+app.get("/niews/artikel", async function (request, response) {
+  response.render("artikel.liquid");
+});
+app.get("/events/event", async function (request, response) {
+  response.render("event.liquid");
+});
+app.get("/publicaties/publicatie", async function (request, response) {
+  response.render("publicatie.liquid");
+});
+app.get("/talent-awards/year/name", async function (request, response) {
+  response.render("talent-genomineerde.liquid");
+});
+
 // Maak een POST route voor de index; hiermee kun je bijvoorbeeld formulieren afvangen
 // Hier doen we nu nog niets mee, maar je kunt er mee spelen als je wilt
 app.post("/", async function (request, response) {
