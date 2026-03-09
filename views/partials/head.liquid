@@ -21,11 +21,11 @@
       <nav>
         <img src="/assets/logo-light.svg" alt="logo">
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/over-ad">Over Ad's</a></li>
-          <li><a href="/publicaties">Publicaties</a></li>
-          <li><a href="/talent-awards">talent award</a></li>
-          <li><a href="/nieuws">Nieuws</a></li>
+          <li><a class="{% if path == '/' %}active{% endif %}" href="/">Home</a></li>
+          <li><a class="{% if path == '/over-ad' %}active{% endif %}" href="/over-ad">Over Ad's</a></li>
+          <li><a class="{% if path == '/publicaties' %}active{% endif %}" href="/publicaties">Publicaties</a></li>
+          <li><a class="{% if path == '/talent-awards' %}active{% endif %}" href="/talent-awards">talent award</a></li>
+          <li><a class="{% if path == '/nieuws' %}active{% endif %}" href="/nieuws">Nieuws</a></li>
         </ul>
         <a href="#">event button</a>
       </nav>
