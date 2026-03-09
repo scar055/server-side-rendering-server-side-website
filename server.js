@@ -1,6 +1,6 @@
 // Importeer het npm package Express (uit de door npm aangemaakte node_modules map)
 // Deze package is geïnstalleerd via `npm install`, en staat als 'dependency' in package.json
-import express from "express";
+import express, {request} from "express";
 
 // Importeer de Liquid package (ook als dependency via npm geïnstalleerd)
 import {Liquid} from "liquidjs";
@@ -58,7 +58,7 @@ app.get("/", async function (request, response) {
     profile_picture: "383622d7-ed2f-4e84-8c0a-9476c5c53826",
   };
 
-  response.render("index.liquid", {person: person});
+  response.render("index.liquid", {person: person, path: request.path});
 });
 
 app.get("/contact", async function (request, response) {
