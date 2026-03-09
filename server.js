@@ -62,42 +62,42 @@ app.get("/", async function (request, response) {
 });
 
 app.get("/contact", async function (request, response) {
-  response.render("contact.liquid");
+  response.render("contact.liquid", {path: request.path});
 });
 
-app.get("/events", async function (request, response) {
-  response.render("events.liquid");
+app.get("/evenementen", async function (request, response) {
+  response.render("events.liquid", {path: request.path});
 });
 
 app.get("/lado", async function (request, response) {
-  response.render("lado.liquid");
+  response.render("lado.liquid", {path: request.path});
 });
 
 app.get("/over-ad", async function (request, response) {
-  response.render("over-ad.liquid");
+  response.render("over-ad.liquid", {path: request.path});
 });
 
 app.get("/over-ons", async function (request, response) {
-  response.render("over-ons.liquid");
+  response.render("over-ons.liquid", {path: request.path});
 });
 app.get("/publicaties", async function (request, response) {
-  response.render("publicaties.liquid");
+  response.render("publicaties.liquid", {path: request.path});
 });
 app.get("/talent-awards", async function (request, response) {
-  response.render("talent-awards.liquid");
+  response.render("talent-awards.liquid", {path: request.path});
 });
 
 app.get("/niews/artikel", async function (request, response) {
-  response.render("artikel.liquid");
+  response.render("artikel.liquid", {path: request.path});
 });
-app.get("/events/event", async function (request, response) {
-  response.render("event.liquid");
+app.get("/evenementen/evenement", async function (request, response) {
+  response.render("event.liquid", {path: request.path});
 });
 app.get("/publicaties/publicatie", async function (request, response) {
-  response.render("publicatie.liquid");
+  response.render("publicatie.liquid", {path: request.path});
 });
-app.get("/talent-awards/year/name", async function (request, response) {
-  response.render("talent-genomineerde.liquid");
+app.get("/talent-awards/jaar/naam", async function (request, response) {
+  response.render("talent-genomineerde.liquid", {path: request.path});
 });
 
 // Maak een POST route voor de index; hiermee kun je bijvoorbeeld formulieren afvangen
