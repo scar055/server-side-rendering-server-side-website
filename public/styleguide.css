@@ -9,5 +9,11 @@
 }
 
 html {
-    --primary-background: #;
+    --primary-color: #000c1a;
+    --secondary-color: #cd3618;
+    --background-color: white;
+    --secondary-background-color: #c2ddff;
+    --background-color-dark: #002a5c;
+    --text-color: black;
+    --secondary-text-color: #001f44;
 }
