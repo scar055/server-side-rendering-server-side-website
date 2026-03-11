@@ -3,6 +3,10 @@
 header {
     .top-nav {
         background-color: var(--secondary-background-color);
+
+        a {
+            font-family: clashdisplay;
+        }
     }
 
     .main-nav {
