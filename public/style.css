@@ -26,11 +26,22 @@ header {
             gap: 2rem;
 
             li {
+                display: flex;
+                align-items: center;
+
                 a {
                     color: var(--text-color);
                     text-decoration: none;
                 }
             }
+        }
+
+        .event-button {
+            background-color: var(--button-background);
+            color: var(--background-color);
+            text-decoration: none;
+            border-radius: 15px;
+            padding: 1.1rem 1.8rem;
         }
     }
 }
