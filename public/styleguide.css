@@ -66,3 +66,11 @@ html {
         font-family: archivo;
     }
 }
+
+.link-button {
+    background-color: var(--button-background);
+    color: var(--background-color);
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 1.1rem 1.8rem;
+}
