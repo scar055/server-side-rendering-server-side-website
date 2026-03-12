@@ -1,8 +1,10 @@
-# Server-Side Website
+# Server-Side Websit
 
 Ontwerp en ontwikkel een server-side website voor een opdrachtgever
 
 De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/INSTRUCTIONS.md)
+
+#AD connect
 
 
 ## Inhoudsopgave
@@ -18,6 +20,7 @@ De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/server-
 <!-- In de Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
+
 
 ## Gebruik
 <!--Bij Gebruik staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
