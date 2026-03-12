@@ -4,9 +4,7 @@ Ontwerp en ontwikkel een server-side website voor een opdrachtgever
 
 De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/INSTRUCTIONS.md)
 
-#AD connect
-
-
+# AD connect
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
@@ -20,6 +18,9 @@ De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/server-
 <!-- In de Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
+Dit project is voor Ad connect een website waar informatie over de AD opleiding en landelijke overleggingen over AD's
+
+<img width="3350" height="1666" alt="image" src="https://github.com/user-attachments/assets/732ca758-ebe6-4a98-93cc-a93c9f914de8" />
 
 
 ## Gebruik
@@ -30,6 +31,10 @@ De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/server-
 
 ## Installatie
 <!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
+clone de repository op je computer.
+als je node nog niet heb geïnstalleerd intstalleer het.
+open een console en navigeer naar het project map en gebruik `npm install`
+om de site te starten gebruik `npm start`
 
 ## Bronnen
 
