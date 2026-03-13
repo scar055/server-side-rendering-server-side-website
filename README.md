@@ -25,9 +25,20 @@ Dit project is voor Ad connect een website waar informatie over de AD opleiding 
 
 ## Gebruik
 <!--Bij Gebruik staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+De live website bij de home page heb je alleen de navigatie en de enige pagina die gemaakt is, is de lado pagina
+
+<img width="3350" height="1666" alt="image" src="https://github.com/user-attachments/assets/732ca758-ebe6-4a98-93cc-a93c9f914de8" />
+
+
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
+voor kleuren zijn er custom css variables gebruikt
+
+de bestanden bestaan uit liquid views
+
+
 
 ## Installatie
 <!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
@@ -37,6 +48,9 @@ open een console en navigeer naar het project map en gebruik `npm install`
 om de site te starten gebruik `npm start`
 
 ## Bronnen
+https://liquidjs.com/index.html
+https://directus.io/docs/
+https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
 
 ## Licentie
 
